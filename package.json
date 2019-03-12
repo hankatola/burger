@@ -1,0 +1,24 @@
+{
+  "name": "eat-da-burger",
+  "version": "1.0.0",
+  "description": "Eat-da-burger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hankatola/burger.git"
+  },
+  "author": "Dave Paquette",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hankatola/burger/issues"
+  },
+  "homepage": "https://github.com/hankatola/burger#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mysql": "^2.16.0"
+  }
+}
