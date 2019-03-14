@@ -2,9 +2,10 @@
   "name": "eat-da-burger",
   "version": "1.0.0",
   "description": "Eat-da-burger",
-  "main": "index.js",
+  "main": "server2.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node server2.js",
+    "start": "nodemon server2.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,6 @@
     "express": "^4.16.4",
     "express-handlebars": "^3.0.2",
     "mysql": "^2.16.0"
-  }
+  },
+  "devDependencies": {}
 }
